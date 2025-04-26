@@ -1,0 +1,31 @@
+1. AXI Transaction Generator.
+
+Create a class AXI_Transaction to represent transactions on an AXI bus. Include fields: addr, data, burst_type, len (length of burst), and id.
+
+Constraints:
+
+The addr should be aligned to the burst size (len * 4 bytes).
+
+Allow burst_type values: INCR (1) and WRAP (2) only.
+
+The len must be between 1 and 16.
+
+Randomize a unique id for each transaction.
+
+Challenge: Generate 10 AXI transactions and verify that all generated addresses are aligned based on the burst length.
+
+2. Cache Line Generator for a CPU
+
+Design a CacheLine class with fields: tag, index, data[8] (8 words), and valid_bit.
+
+Constraints:
+
+Randomize the index value within [0:127].
+
+Assign the tag a unique value for each index.
+
+Ensure the data array is randomized such that no two words have the same value.
+
+Set valid_bit = 1 for all generated lines.
+
+Challenge: Generate 128 cache lines with unique tag-index pairs, ensuring the data uniqueness constraint is met.
