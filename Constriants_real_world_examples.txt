@@ -1,0 +1,27 @@
+1. Randomized Meal Generator
+Question: Generate random meals with the following constraints:
+
+          The meal must have exactly 1 main dish, 1 side dish, and 1 dessert.
+          
+          A vegetarian main dish cannot be paired with a non-vegetarian side dish.
+          
+          The total calorie count must be less than 1500.
+
+
+2. Movie Schedule Randomizer
+Question: Generate a random movie screening schedule with the following constraints:
+
+          No two movies should overlap in the same screening room.
+          
+          Each movie must have at least one evening slot (after 6 PM).
+          
+          Comedy movies must not be scheduled before 12 PM.
+
+3. Gift Distribution
+Question: Simulate a random gift distribution with the following constraints:
+
+          No person can receive the same gift twice.
+          
+          At least 20% of the gifts must be under the "premium" category.
+          
+          The distribution must ensure that everyone receives at least one gift.
